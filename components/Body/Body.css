@@ -1,0 +1,30 @@
+.search-filter {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.search-filter input {
+  padding: 0.2rem 0.5rem;
+}
+
+.search-filter button {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+
+.restaurant-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+}
+
+.search-query input{
+  outline: none;
+}
+
+

@@ -1,0 +1,66 @@
+.card-container .image img {
+  height: 8rem;
+  width: 13rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.card-container {
+  width: 22%;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rating-deliveryTime {
+  font-size: 0.7rem;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 90%;
+  font-weight: 550;
+}
+
+.rating-deliveryTime img {
+  height: 15px;
+  width: 15px;
+}
+
+.title {
+  font-size: 0.4rem;
+  font-weight: 100;
+}
+
+.title,
+.rating-deliveryTime,
+.cuisine,
+.cost-for-two {
+  margin-top: 2px;
+  padding: 0 0.5rem;
+}
+
+.cost-for-two {
+  font-size: 0.7rem;
+  font-weight: 600;
+  opacity: 80%;
+}
+
+.cuisine p {
+  opacity: 80%;
+  font-size: 0.7rem;
+  font-weight: 450;
+}
+
+.cuisine{
+  width: 100%
+  overflow: hidden;
+}
+
+.separator {
+  font-size: 1rem;
+}
