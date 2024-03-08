@@ -1,14 +1,14 @@
-import {Header, Body, Footer} from "../components/appStructure.js"
+import { Header, Body, Footer } from "../components/appStructure.js";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
-    return (
-      <div className="app">
-        <Header />
-        <Body />
-        {/* <Footer /> */}
-      </div>
-    );
-    
+  return (
+    <div className="app">
+      <Header />
+      <Outlet />
+      {/* <Footer /> */}
+    </div>
+  );
 };
 
 export default App;
