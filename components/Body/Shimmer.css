@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   gap: 4rem;
   padding: 1rem 2.5rem;
-  overflow-y: hidden;
 }
 .shimmer-card {
   display: flex;

@@ -8,6 +8,7 @@ const Body = () => {
   const [restaurantList, setRestaurantList] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [filteredRes, setFilteredRes] = useState([]);
+  const [displayAllRes, setDisplayAllRes] = useState([]);
 
   useEffect(() => {
     fetchData();
@@ -19,7 +20,7 @@ const Body = () => {
     );
     const json = await data.json();
 
-    console.log(json);
+    // console.log(json);
     setRestaurantList(
       json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
     );
